@@ -1,4 +1,4 @@
-# Jimbo: System Monitoring Utility
+# jimbo ~ a system monitoring utility
 
 ## Introduction
 
