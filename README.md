@@ -81,7 +81,7 @@ Jimbo is an enterprise-grade, lightweight command-line interface (CLI) utility, 
     - `--enable-debug`, `--disable-debug`: Debugging toggle.
 ## 2. Background Operation & Graceful Termination
 
-Jimbo offers seamless background operation, minimizing to the system tray when the 'X' button is pressed. For graceful termination, input `:wq` in the CLI.
+Jimbo offers seamless background operation and minimizes to the system tray when the 'X' button is pressed or when `jimbo &` is typed in the console. For graceful termination, input `:wq` in the CLI.
 ## 3. Command Overview
 
 #### 1. "jimbo cpu" Command
@@ -221,7 +221,7 @@ Code Vectorization - Takes advantage of SIMD (Single Instruction, Multiple Data)
 Adherence to Go's idiomatic coding conventions is imperative. Variables and function nomenclature should be both descriptive and concise. Constants shall be denominated in uppercase, and package names in lowercase, to maintain uniformity across the codebase.
 ## 6. Prescribed Development Practices
 
-Code modularity, readability, and maintainability are non-negotiable standards. Comprehensive unit tests must accompany each functional component. All code alterations necessitate peer reviews. In-code comments and documentation should elucidate not just the 'what', but pivotally, the 'why'.
+Code modularity, readability, and maintainability are non-negotiable standards. Comprehensive unit tests must accompany each functional component. All code alterations necessitate peer reviews by two team members. In-code comments and documentation should elucidate not just the 'what', but pivotally, the 'why'.
 ## 7. Version Control and Collaboration
 
 ### Git Workflow
